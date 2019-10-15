@@ -14,3 +14,14 @@ The client code: in it you will find my various SQL queries used to access and w
 Downloads/lab2/cases/
 
 This folder includes all the test cases I wrote for the program. This is formatted in calls to the client program.
+
+# Technologies I used
+
+Languages: 
+Java, 
+SQL
+
+Techniques used: 
+Password hashing and salt,
+Database transactions
+
