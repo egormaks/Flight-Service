@@ -1,0 +1,22 @@
+# attempts to sign in a user to multiple sessions with one terminal creating the user. The other will either succeed in the login or fail if executed before creation
+create user1 user1 100
+login user1 user1
+quit
+*
+Created user user1
+Logged in as user1
+Goodbye
+|
+Created user user1
+Logged in as user1
+Goodbye
+*  
+login user1 user1
+quit
+*  
+Logged in as user1
+Goodbye
+|
+Login failed
+Goodbye
+*

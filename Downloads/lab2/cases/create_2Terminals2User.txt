@@ -1,0 +1,43 @@
+# Two terminals attempt to create the same users
+# Terminal 1
+create user1 user1 100
+create user2 user2 100
+quit
+*
+Created user user1
+Created user user2
+Goodbye
+|
+Created user user1
+Failed to create user
+Goodbye
+|
+Failed to create user
+Created user user2
+Goodbye
+|
+Failed to create user
+Failed to create user
+Goodbye
+*
+# Terminal 2
+create user1 user1 100
+create user2 user2 100
+quit
+*
+Failed to create user
+Failed to create user
+Goodbye
+|
+Failed to create user
+Created user user2
+Goodbye
+|
+Created user user1
+Failed to create user
+Goodbye
+|
+Created user user1
+Created user user2
+Goodbye
+*
